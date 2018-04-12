@@ -42,11 +42,6 @@ footer {
     display: block;
     clear: both;
 }
-img {
-    height: 140px;
-    float: left;
-    margin-right: 30px;
-}
 .about_me {
     border: solid 1px #dddddd; 
     width: 960px;
@@ -84,8 +79,11 @@ img {
      border: solid 1px #dddddd;
  }
 
-img {
+.headshot {
     margin-left: 18px;
+    height: 140px;
+    float: left;
+    margin-right: 30px;
 }
 
 .contact_form {
@@ -95,3 +93,28 @@ img {
     font-size: 14px;
     line-height: 1.5;
 }
+
+input {
+    width: 900px;
+}
+
+.message {
+    width: 900px;
+    height: 200px;
+}
+
+button {
+    background: #4aaaa5;
+    height: 40px;
+    width: 100px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.portimages {
+    height: 150px;
+    width: 150px;
+    margin: 75px;
+}
+
+
